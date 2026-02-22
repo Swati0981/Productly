@@ -1,1 +1,49 @@
+/* ===== NORMALIZE CSS ===== */
+
+/* Remove default margin */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set consistent box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Headings spacing reset */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Paragraph spacing reset */
+p {
+    margin: 0;
+}
 
