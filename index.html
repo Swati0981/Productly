@@ -1,91 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productly</title>
-
-  <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Productly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-     
-      <header>
-           <div class="navbar">
-               <div class="logo">
-                 <img src="images/productly.png">
-                   <div class="list">
-                        <ul>
-                             <li>Product</li>
-                             <li>Customers</li>
-                             <li>Pricing</li>
-                             <li>Resources</li>
-                             <a href="#"><button>Sign in</button></a>
-                             <a href="#"><button>Sign UP</button></a>
-                        </ul>
-                   </div>
-               </div>
+
+<header>
+    <div class="container nav">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Productly logo">
+        </div>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="#" class="btn-outline">Sign In</a>
+            <a href="#" class="btn-primary">Sign Up</a>
+        </div>
+
+    </div>
+</header>
+
+<main>
+
+   <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <h1>The Design Thinking Superpowers</h1>
+                <p>
+                    Tools, tutorials, design and innovation experts,
+                    all in one place. The most intuitive way to imagine
+                    your next user experience.
+                </p>
+
+                <a href="#" class="btn-primary">Get Started</a>
             </div>
-        </header>
-    <main>
-        <!--this is first section -->
-        <section>
-            <div class="sec1-container">
-                <div class="section">
-                    <h1><b>The Design Thinking superpowers</b></h1>
-                        <p> Tools, tutorials, design and innovation experts all,<br> 
-                        in one place! The most intuitive way to imagine<br>
-                        your next user experince.</p>
-                        <button>Get started</button>
-                        <button>Watch the Video</button>
-                </div>
-            </div>
+
             <div class="hero-image">
-                <img src="images/hero.png" alt="People jumping">
-              </div>
-            </section>
-        <!-- FEATURES -->
-        <section >
-            <div class="section2">
-                <h2>We design tools to unveil your superpowers</h2>
-              </div>
-            
-                 <div class="sec2-container iconsec2">
-                     <div class="alignment">
-                         <img src="images/icon1.svg" alt="icon1">
-                         <h2>First click tests</h2>
-                         <p>While most people enjoy
-                         <br>casino gambling</p>
-                 </div>
-                 <div class="alignment">
-                          <img src="images/icon2.svg" alt="icon3">
-                          <h2>Design surveys</h2>
-                          <p>Sports betting,lottery and
-                          <br>bingo playing for the fun</p>
-                 </div>
-                 <div class="alignment">
-                          <img src="images/icon3.svg" alt="icon3">
-                          <h2>Prefernce tests</h2>
-                          <p>The Myspace page defines
-                          <br> the individual</p>
-                 </div>
-                 <div class="alignment">
-                    <img src="images/icon4.svg" alt="icon4">
-                    <h2>Five second tests</h2>
-                    <p> Personal choice and the overall personality of the
-                    <br> person</p>
-                 </div>
+                <img src="images/hero.png" alt="Three people jumping">
+            </div>
 
-                <button class="btn btn-primary">Sign up now</button>
-              </section>
-            
-            </body>
-            </html>
-                        
-                    
+        </div>
+    </section>
 
+   <section class="features">
+        <div class="container">
 
+            <h2>We design tools to unveil your superpowers</h2>
 
+            <div class="features-grid">
 
+                <div class="feature-card">
+                    <img src="images/icon-purple.png" alt="">
+                    <h3>First Click Tests</h3>
+                    <p>Understand user interaction instantly.</p>
+                </div>
 
-                    
+                <div class="feature-card">
+                    <img src="images/icon-yellow.png" alt="">
+                    <h3>Design Surveys</h3>
+                    <p>Collect feedback quickly and easily.</p>
+                </div>
+
+                <div class="feature-card">
+                    <img src="images/icon-red.png" alt="">
+                    <h3>Preference Tests</h3>
+                    <p>Find out what users really prefer.</p>
+                </div>
+
+                <div class="feature-card">
+                    <img src="images/icon-orange.png" alt="">
+                    <h3>Five Second Tests</h3>
+                    <p>Measure first impressions fast.</p>
+                </div>
+
+            </div>
+
+            <div class="center">
+                <a href="#" class="btn-primary">Sign Up Now</a>
+            </div>
+
+        </div>
+    </section>
+
+       <section class="info">
+        <div class="container info-content">
+
+            <div class="info-text">
+                <p class="small-title">Effortless Validation For</p>
+                <h2>Design Professionals</h2>
+                <p>
+                    The Myspace page defines the individual,
+                    his or her characteristics and personality.
+                </p>
+            </div>
+
+            <div class="info-image">
+                <img src="images/red-shirt.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+        <section class="info reverse">
+        <div class="container info-content">
+
+            <div class="info-text">
+                <p class="small-title">Easier Decision Making For</p>
+                <h2>Product Managers</h2>
+                <p>
+                    Make better product decisions using real data.
+                </p>
+            </div>
+
+            <div class="info-image">
+                <img src="images/blue-shirt.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+       <section class="info">
+        <div class="container info-content">
+
+            <div class="info-text">
+                <p class="small-title">Optimisation For</p>
+                <h2>Marketers</h2>
+                <p>
+                    Improve campaigns with clear insights.
+                </p>
+            </div>
+
+            <div class="info-image">
+                <img src="images/yellow-shirt.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container footer-content">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Productly logo">
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+
+        <a href="#" class="btn-primary">Sign Up Now</a>
+
+    </div>
+</footer>
+
+</body>
+</html>
+
 
